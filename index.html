@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Turbo Cloud</title>
+  </head>
+  <body>
+    <!-- <header class="dark-header py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <img src="./assets/images/logo.svg" alt="Turbo Cloud Logo" />
+      </div>
+    </header> -->
+
+    <div class="flex">
+      <aside class="dark-sidebar">
+        <div class="p-4">
+          <img src="./assets/images/logo.svg" alt="Turbo Cloud Logo" />
+          <!-- <p class="text-white">Your Sidebar Content</p> -->
+        </div>
+      </aside>
+      <main class="dark-content container py-8">
+        <h2 class="text-4xl font-semibold text-white">Turbo Cloud</h2>
+        <section class="py-14 container">
+          <h2 class="text-3xl font-semibold text-white">Introduction</h2>
+          <p class="text-white mt-4">
+            Turbo-Cloud is a streamlined web application designed to simplify
+            email and SMS messaging. Utilizing React.js, Node.js, and
+            PostgreSQL, Turbo-Cloud offers user-friendly interfaces,
+            authentication, and specialized messaging services. Users can
+            quickly sign up using email or Google authentication, explore
+            product listings, and utilize "Turbo Send SMS" and "Turbo Send
+            Email" services. With a commitment to continuous improvement,
+            Turbo-Cloud is poised to evolve, welcoming future enhancements that
+            will further empower users and broaden its capabilities for
+            effective communication.
+          </p>
+        </section>
+        <hr style="padding-bottom: 20px" />
+        <div>
+          <ul>
+            <ol class="text-bold text-2xl mb-4">
+              Project Overview
+            </ol>
+
+            <ul>
+              <li>Project Name: Turbo-Cloud</li>
+              <li>
+                Purpose: Develop a web application to send emails and SMS using
+                React.js, Node.js, Express, and PostgreSQL.
+              </li>
+              <li>
+                Scope: The application includes user authentication, product
+                listings, and services for sending emails and SMS.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              Project Architecture
+            </ol>
+            <ul>
+              <li>Frontend: Built using React.js for user interfaces.</li>
+              <li>
+                Backend: Developed using Node.js and Express for server-side
+                logic.
+              </li>
+              <li>Database: PostgreSQL for storing user and product data.</li>
+              <li>
+                Authentication: Implementing user authentication using
+                email/password and Google OAuth.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              Login and Authentication
+            </ol>
+            <ul>
+              <li>
+                Login Page: Design and implementation of a login page with a
+                form for email/password login.
+              </li>
+              <li>
+                Signup Page: Design and implementation of a signup page for new
+                users.
+              </li>
+              <li>
+                Google Authentication: Integration of Google OAuth for quick
+                user sign-in.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              Product Listings
+            </ol>
+            <ul>
+              <li>Products Page: Display a list of products available.</li>
+              <li>
+                Product Details: Show details of selected products, including
+                name, description, and price.
+              </li>
+              <li>
+                Add Product: Implement an "Add Product" button to add new
+                products to the listing.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              Services for Sending Messages
+            </ol>
+            <ul>
+              <li>
+                Services Page: Provide a list of services for sending messages.
+              </li>
+              <li>
+                Turbo Send SMS: Implement a service for sending SMS messages
+                using a third-party SMS gateway.
+              </li>
+              <li>
+                Turbo Send Email: Implement a service for sending emails using a
+                third-party email service provider.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              Database Design
+            </ol>
+            <ul>
+              <li>
+                User Table: Store user information including ID, name, email,
+                and hashed passwords.
+              </li>
+              <li>
+                Product Table: Store product details like ID, name, description,
+                and price.
+              </li>
+              <li>
+                Service Table: Store service details including ID and name.
+              </li>
+            </ul>
+            <ol class="text-bold text-2xl mb-4 mt-4">
+              User Flows
+            </ol>
+            <ul>
+              <li>
+                Login Flow: User logs in with email/password or through Google
+                authentication.
+              </li>
+              <li>
+                Signup Flow: New users create accounts by providing necessary
+                information.
+              </li>
+              <li>
+                Product Flow: Users browse products, view details, and add
+                products to the cart.
+              </li>
+              <li>
+                Service Flow: Users select services to send emails or SMS
+                messages.
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <!-- <footer class="dark-footer py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2023 Turbo Cloud. All rights reserved.</p>
+      </div>
+    </footer> -->
+  </body>
+</html>
